@@ -1,7 +1,9 @@
 #include <stdio.h>
 
+// Function prototypes
 float final_velocity(float u, float a, float t);
 float distance(float u, float a, float t);
+
 int main()
 {
     // initialize variables
@@ -23,6 +25,8 @@ int main()
 
     return 0;
 }
+
+// Function definitions
 
 float final_velocity(float u, float a, float t)
 {

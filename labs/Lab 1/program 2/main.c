@@ -1,5 +1,6 @@
 #include <stdio.h>
 
+// Functions prototypes
 int sum(int n1, int n2, int n3);
 float average(int n1, int n2, int n3);
 int product(int n1, int n2, int n3);
@@ -25,6 +26,8 @@ int main()
 
     return 0;
 }
+
+// Function definitions
 
 int sum(int n1, int n2, int n3)
 {

@@ -1,5 +1,7 @@
 #include <stdio.h>
 
+// Function prototypes
+
 int hours(int seconds);
 int minutes(int seconds);
 int seconds(int seconds);
@@ -16,6 +18,8 @@ int main()
     // print results
     printf("%i : %i : %i \n", hours(secs), minutes(secs), seconds(secs));
 }
+
+// Function definitions
 
 int hours(int seconds)
 {

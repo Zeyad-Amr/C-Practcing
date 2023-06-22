@@ -11,7 +11,7 @@ int main()
     // initialize variables
     unsigned char number = 0; // 8 bit number
     int cycles = 0;           // number of cycles
-    char direction = 'l';     // direction of rotation
+    char direction = 'l';     // direction of rotation (l/r)
 
     // get user input
     printf("Enter an 8 bit number: ");
